@@ -1,0 +1,6 @@
+/* Cormorant's dash spacing, with a straight 0.022em hairline at every weight.
+   This first face contains only dashes; all other serif and sans glyphs retain
+   their existing fonts. The italic face also stays horizontal. */
+@font-face{font-family:'Forest Hairline Dashes';src:url('assets/forest-hairline-dashes.woff2') format('woff2');unicode-range:U+002D,U+2010-2015,U+2212;font-style:normal;font-weight:100 900;font-display:swap}
+@font-face{font-family:'Forest Hairline Dashes';src:url('assets/forest-hairline-dashes.woff2') format('woff2');unicode-range:U+002D,U+2010-2015,U+2212;font-style:italic;font-weight:100 900;font-display:swap}
+:root{--serif:'Forest Hairline Dashes','Cormorant Garamond','Noto Serif SC',Georgia,serif}
